@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset= "utf-8">
+	<title>Request</title>
+	<link rel="stylesheet" type="text/css" href="foodStyle.css">
+</head>
+
+<body>
+	<a href="index.html"><img src="images/logo.png"></a>
+	<h1>SUBMIT YOUR REQUEST</h1>
+	<h3> Please fill out the form below</h3>
+	<form>
+	<fieldset style="vertical-align: middle; margin: 25px; filter:drop-shadow(0px 5px 10px black)">
+	<legend>Address:</legend>
+	<input type="email" name="email" placeholder="Email">
+	</fieldset>
+
+	<fieldset style="text-align:center; height: 300px; vertical-align: middle; margin: 25px; box-shadow: 0px 15px 20px black;">
+	<legend> Choose Your Style:</legend>
+	<label><b>Classic</b><br>This is a classic treatment<br><input type="radio" name="style" id="classic"></label><br><br>
+	<label><b>Premium</b><br>pinky's up<br><input type="radio" name="style" id="premium"></label><br><br>
+	<label><b>Royal</b><br>Your food is served on a silver platter. Literally.<br><input type="radio" name="style" id="royal"></label>
+	</fieldset>
+
+	<fieldset style="vertical-align: middle; margin: 25px; filter:drop-shadow(0px 5px 10px black)">
+	<legend>Restaurant:</legend>
+	<input type="text" name="restaurant" placeholder="Name">
+	</fieldset>
+
+	<fieldset style="text-align:center; height: 300px; vertical-align: middle; margin: 25px; box-shadow: 0px 15px 20px black;">
+	<legend>Tip:</legend>
+	<label><b>10%</b><br>They did their job<br><input type="radio" name="tip" id="ten"></label><br><br>
+	<label><b>15%</b><br>They made you feel special<br><input type="radio" name="tip" id="fifteen"></label><br><br>
+	<label><b>20%</b><br>I wanna give them more, but this is all I have!<br><input type="radio" name="tip" id="twenty"></label>
+	</fieldset><br><br>
+	
+	<h2 id="total"></h2>
+	<input type="submit" value="Request" id="request"> <br><br>
+	</form>
+
+	<script src="foodar.js"></script>
+
+	<footer>
+	<table width="100%">
+	<tr> <td><a href="index.html">Home</a></td> <td style="text-align: center; color:#84bdff; text-decoration: underline;">Privacy Policy</td> <td style="text-align: right; color: #84bdff;">Happy dining!</td> </tr>
+	<tr> <td><a href="register.html">Register</a></td> <td style="text-align: center; color: #84bdff; text-decoration: underline;">Terms & Conditions</td> </tr>
+	<tr> <td><a href="about.html">How it all works</a></td> </tr>
+	</table>
+
+	<p style="margin: 5px;">&copy; 2022. All rights reserved.</p>
+	</footer>
+</body>
+</html>
